@@ -209,7 +209,7 @@ my %dict_from; # 辞書間の重複チェック用
 
 my $number = 0;
 while (<STDIN>) {
-    print STDERR "\r".$number;
+    # print STDERR "\r".$number;
     $number = $number +1;
     if($_ =~ /^\s*;/){ next;}
     if($_ =~ /^\s*$/){ next;}
